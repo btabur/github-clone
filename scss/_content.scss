@@ -1,0 +1,85 @@
+.main {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 40px;
+
+    &-about {
+        img {
+            width: 240px;
+            height: 240px;
+            border-radius: 8px;
+        }
+        &-title {
+            margin-top: 30px;
+            h3 {
+                padding-bottom: 10px;
+            }
+            h4 {
+                padding-bottom: 30px;
+            }
+            button {
+                width: 100%;
+                height: 30px;
+                border: 1px solid rgb(27 , 31, 35,.2);
+                background-color: #eff3f6;
+                background-image: linear-gradient(-180deg,#fafbfc, #eff3f6 90%);
+                border-radius: 3px;
+            }
+        }
+        &-dec {
+            margin-top: 16px;
+        }
+    }
+    &-projects {
+        width: 100%;
+        margin-left: 40px;
+        &-links {
+            display: flex;
+           justify-content: space-around;
+           a {
+            color: #586069;
+           }
+        }
+        .section {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+            a {
+                font-size: 12px;
+                color: #586069;
+            }
+        }
+
+        &-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+            &-bar {
+                padding: 10px;
+                border: 1px solid #ccc;
+                width: 400px;
+                margin: 10px;
+                .up {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .down {
+                    margin-top: 40px;
+                    margin-left: 20px;
+                    span {
+                        display: inline-block;
+                        width: 12px;
+                        height: 12px;
+                        border-radius: 50%;
+                        background-color: blue;
+                        margin-right: 10px;
+
+                    }
+                }
+            }
+        }
+       
+    }
+}

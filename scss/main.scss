@@ -1,0 +1,9 @@
+@import 'normalize';
+@import 'formalize';
+@import 'variables';
+@import 'header';
+@import 'content';
+
+* {
+    font-family: $my-font;
+}
